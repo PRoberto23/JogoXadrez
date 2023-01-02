@@ -5,6 +5,8 @@ public class Posicao {
 	private Integer coluna;
 	
 	public Posicao() {
+		linha = null;
+		coluna = null;
 	}
 
 	public Posicao(Integer linha, Integer coluna) {
