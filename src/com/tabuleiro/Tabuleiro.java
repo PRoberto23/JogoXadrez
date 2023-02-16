@@ -61,6 +61,8 @@ public class Tabuleiro {
 		
 	}
 	
+	public void removePeca
+	
 	private boolean posicaoExist(int linha, int coluna) {
 		return linha >= 0 && linha < linhas && coluna >= 0 && coluna < colunas;
 		
